@@ -11,13 +11,13 @@ a {
   color: #9698a6; }
   a:hover {
     text-decoration: none;
-    color: #2e3053; }
+    color: #090979; }
 
 .btn-custom {
-  background: -webkit-gradient(linear, left top, right top, from(#1F1C2C), to(#928DAB));
-  background: -webkit-linear-gradient(left, #1F1C2C, #928DAB);
-  background: -o-linear-gradient(left, #1F1C2C, #928DAB);
-  background: linear-gradient(90deg, #1F1C2C, #928DAB);
+  background: -webkit-gradient(linear, left top, left bottom, from(#020024), color-stop(40%, #090979), to(#44536a));
+  background: -webkit-linear-gradient(top, #020024 0%, #090979 40%, #44536a 100%);
+  background: -o-linear-gradient(top, #020024 0%, #090979 40%, #44536a 100%);
+  background: linear-gradient(180deg, #020024 0%, #090979 40%, #44536a 100%);
   font-weight: 400;
   padding: 0.75rem 2.5rem;
   background-position: left center;
@@ -34,7 +34,7 @@ a {
       font-size: 16px;
       margin: 0 5px; }
       .navbar-light .navbar-nav .nav-link:hover {
-        color: #2e3053; }
+        color: #090979; }
   .navbar-light .btn-custom {
     padding: 0.5rem 1.7rem; }
   .navbar-brand img {
@@ -78,7 +78,7 @@ a {
     display: block;
     color: #149c74; }
     .blog-post a:hover {
-      color: #2e3053; }
+      color: #090979; }
     .blog-post a > img {
       height: 200px;
       width: 100%;
@@ -90,11 +90,11 @@ a {
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    background-color: #2e3053;
-    background: -webkit-gradient(linear, left top, right top, from(#2e3053), color-stop(120%, #6d6d75));
-    background: -webkit-linear-gradient(left, #2e3053, #6d6d75 120%);
-    background: -o-linear-gradient(left, #2e3053, #6d6d75 120%);
-    background: linear-gradient(90deg, #2e3053, #6d6d75 120%);
+    /* background-color: $color-orange */
+    background: -webkit-gradient(linear, left top, right top, from(#090979), color-stop(120%, #44536a));
+    background: -webkit-linear-gradient(left, #090979, #44536a 120%);
+    background: -o-linear-gradient(left, #090979, #44536a 120%);
+    background: linear-gradient(90deg, #090979, #44536a 120%);
     color: white;
     text-align: center;
     line-height: 80px;
@@ -107,7 +107,7 @@ footer {
     margin-right: 5px;
     color: white; }
     .social-links a:hover {
-      color: #2e3053; }
+      color: #090979; }
   .site-links a {
     display: block;
     margin-bottom: 5px; }
